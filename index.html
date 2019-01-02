@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="dist/web3.js" charset="utf-8"></script>
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+        <title>BlackJack</title>
+    </head>
+    <body>
+        <button type="button" id="login">login</button>
+        <button type="button" id="deploy" disabled>deploy</button>
+        <button type="button" class="button" id="init" disabled>init</button>
+        <button type="button" class="button" id="newGame" disabled>newGame</button>
+        <button type="button" class="button" id="hit" disabled>hit</button>
+        <button type="button" class="button" id="stand" disabled>stand</button>
+        <button type="button" class="button" id="surrender" disabled>surrender</button>
+
+        <p><span>isInGame : </span><span id="state"></span></p>
+        <p><span>amount : </span><span id="amount"></span></p>
+        <p><span>points : </span><span id="points"></span></p>
+        <p><span>opponent : </span><span id="opponent"></span></p>
+        <p><span>card : </span><span id="card"></span></p>
+        <p><span>Number of Aces : </span><span id="nAce"></span></p>
+        <p id="msg">Login first.</p>
+    </body>
+</html>
